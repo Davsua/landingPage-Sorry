@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import { Header } from "./components/header";
+import JsonData from "./data/data.json";
+import SmoothScroll from "smooth-scroll";
+import "./App.css";
+import { Reasons } from "./components/reasons";
+import { Memories } from "./components/memories";
+import { Music } from "./components/music";
+import { Blog } from "./components/blog";
+import { Footer } from "./components/footer";
 
-function App() {
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
+
+const App = () => {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+    console.log(landingPageData);
+  }, [landingPageData]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header data={landingPageData.Header} />
+      <Reasons data={landingPageData.Reasons} />
+      <Memories data={landingPageData.Memories} />
+      <Music data={landingPageData.Music} />
+      <Blog />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

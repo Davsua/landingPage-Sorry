@@ -1,0 +1,36 @@
+{
+  "Header": {
+    "name": "Im Sorry",
+    "text": "Joselyn I know this is not the best thing to do right now you probably don't even want to hear from me and I really understand I know I screwed up in the worst possible way and I really miss you and this is the only way. to 'get your attention'. I love you I'll love you forever. I'm sorry again",
+    "freeHand": "file:///C:/Users/USUARIO/OneDrive/Desktop/doc%20David/CVs/CV_Full-Stack_developer_David-Suarez.pdf",
+    "songsList": "#music"
+  },
+  "Reasons": [
+    {
+      "title": "Strawberries",
+      "text": "Puedo darte muchisimas Fresas con crema :D (se que el emoji no son fresas)."
+    },
+    {
+      "title": "Estoy en terapia",
+      "text": "Estoy sanando y mejorando mis comportamientos malos como ese."
+    },
+    {
+      "title": "Estoy muy arrepentido",
+      "text": "Hasta el dia de hoy, creo que ha sido la peor desicion de mi vida, obvio todos nos equivocamos, ojala lo entiendas :("
+    },
+    {
+      "title": "Te amo",
+      "text": "Cada Palabra que te dije acerca del amor que te tengo es completamente verdad."
+    }
+  ],
+  "Memories": [
+    {
+      "original": "http://lorempixel.com/1000/600/nature/1/",
+      "thumbnail": "http://lorempixel.com/250/150/nature/1/"
+    },
+    {
+      "original": "http://lorempixel.com/1000/600/nature/1/",
+      "thumbnail": "http://lorempixel.com/250/150/nature/1/"
+    }
+  ]
+}
