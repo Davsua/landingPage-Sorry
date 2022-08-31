@@ -12,7 +12,11 @@ export const TextBlog = () => {
         y lo escribo abriendo mi mente mi alma y mi corazón.... CONTINUE PDF
       </p>
       <br></br>
-      <a href="./pdf" target="blank" className="button btn freeHand-btn">
+      <a
+        href="https://github.com/Davsua/landingPage-Sorry/blob/main/src/pdf/letterJoselyn.pdf"
+        target="blank"
+        className="button btn freeHand-btn"
+      >
         <FontAwesomeIcon icon={faSearch} />
         See all in PDF
       </a>

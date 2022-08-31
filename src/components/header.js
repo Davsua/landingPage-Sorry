@@ -73,7 +73,7 @@ export const Header = (props) => {
                 Songs
               </a>
               <a
-                href="./pdf"
+                href="https://github.com/Davsua/landingPage-Sorry/blob/main/src/pdf/letterJoselyn.pdf"
                 target="blank"
                 className="button btn freeHand-btn"
               >
