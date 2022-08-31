@@ -1,4 +1,3 @@
-//import  from "react-reveal/";
 import ParticlesBg from "particles-bg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
