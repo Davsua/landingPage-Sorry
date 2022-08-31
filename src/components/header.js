@@ -1,4 +1,4 @@
-import Zoom from "react-reveal/Zoom";
+//import  from "react-reveal/";
 import ParticlesBg from "particles-bg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -55,16 +55,16 @@ export const Header = (props) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <Zoom bottom>
+          <bottom>
             <h1 className="responsive-headline">
               {props.data ? props.data.name : "Loading"}
             </h1>
-          </Zoom>
-          <Zoom bottom duration={1200}>
+          </bottom>
+          <bottom duration={1200}>
             <h3>{props.data ? props.data.text : "Loading"}.</h3>
-          </Zoom>
+          </bottom>
           <hr />
-          <Zoom bottom duration={2000}>
+          <bottom duration={2000}>
             <ul className="gifts">
               <a
                 href={props.data ? props.data.songsList : "Loading"}
@@ -82,7 +82,7 @@ export const Header = (props) => {
                 Letter
               </a>
             </ul>
-          </Zoom>
+          </bottom>
         </div>
       </div>
 
